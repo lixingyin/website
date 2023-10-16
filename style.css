@@ -1,0 +1,35 @@
+* {
+    border: none;
+    padding: none;
+    margin: none;
+}
+
+body {
+    border: none;
+    padding: none;
+    margin: none;
+}
+
+.nav {
+    text-decoration: none;
+    margin: auto; 
+    background-color: #1A344B;
+}
+
+a:-webkit-any-link {
+    font-size: 20px;
+    font-family: 'DM Sans', Courier, monospace;
+    color: #fefefe;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 5px;
+    width: auto;
+    align-content: center;
+}
+
+div {
+    margin: 0px;
+}
