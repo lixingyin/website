@@ -32,6 +32,11 @@ body {
     padding: 10px;
     
 }
+.main h1, .about h1, .portfolio h1, .projects h1, .resume h1{
+    font-size: 100px;
+    
+}
 .resume a{
     color: red;
+
 }
