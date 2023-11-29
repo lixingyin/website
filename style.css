@@ -1,35 +1,37 @@
-* {
-    border: none;
-    padding: none;
-    margin: none;
-}
-
-body {
-    border: none;
-    padding: none;
-    margin: none;
-}
-
 .nav {
+    font-size: 15px;
     text-decoration: none;
     margin: auto; 
     background-color: #1A344B;
 }
 
-a:-webkit-any-link {
-    font-size: 20px;
+a {
     font-family: 'DM Sans', Courier, monospace;
     color: #fefefe;
     text-decoration: none;
     text-align: center;
     display: inline-block;
     border-radius: 10px;
-    padding: 25px;
+    padding: 20px 15px;
     margin: 5px;
     width: auto;
     align-content: center;
 }
 
 div {
+    border: 0px;
+    padding: 0px;
     margin: 0px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+.main, .about, .portfolio, .projects, .resume{
+    padding: 10px;
+    
+}
+.resume a{
+    color: red;
 }
